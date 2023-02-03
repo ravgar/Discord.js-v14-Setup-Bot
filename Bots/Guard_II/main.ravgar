@@ -1,0 +1,12 @@
+const { RAVGAR } = require('../../Global/Structures/Default.Guard.Clients.js');
+const system = global.system = require("../../Global/Settings/System");
+let client = global.client = new RAVGAR({
+    token: system.Tokens.GuardII,
+    prefix: system.Bot.Prefixs,
+    owners: system.Bot.Roots,
+    MongoURI: system.Bot.MongoURI,
+    _dirname: "Guard_II"
+});
+
+client.fetchEvents()
+client.connect()
