@@ -2,4 +2,4 @@
 
 # Botun Ana Kaynağı Acara Aittir ( Acara Teşekkürler )
 
-# Aris Kardeşimin Emeklerinin Olduğu Bir Projedir Paylaşıp Bize Prim Salmalarıda Çok Hoştu Elde Edemeyeceğiniz Botları Bari Paylaşmayıp Kullansaydınız
+# Aris Kardeşimin Emeklerinin Olduğu Bir Projedir Paylaşıp Bizim Mükemmelliğimizi Göstermeleri Çok Hoştu Elde Edemeyeceğiniz Botları Bari Paylaşmayıp Kullansaydınız
