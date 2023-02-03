@@ -1,0 +1,34 @@
+{
+  "name": "ravgar-v14-bots",
+  "version": "1.0.0",
+  "description": "Ravgar V14 Botlar",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "heroku-postbuild": "npm install pm2",
+    "start": "pm2-runtime start ecosystem.config.js --env production"
+  },
+  "author": "ravgar",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.11.0",
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cron": "^2.1.0",
+    "crypto": "^1.0.1",
+    "discord-modals": "^1.3.9",
+    "discord.js": "^14.0.3",
+    "fs": "^0.0.1-security",
+    "glob": "^8.0.3",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.0.12",
+    "ms": "^2.1.3",
+    "path": "^0.12.7",
+    "pm2": "^5.2.0",
+    "request": "^2.88.2",
+    "table": "^6.8.0",
+    "util": "^0.12.4"
+  }
+}
