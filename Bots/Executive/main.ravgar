@@ -1,0 +1,14 @@
+const { RAVGAR } = require('../../Global/Structures/Default.Clients.js');
+const system = global.system = require("../../Global/Settings/System");
+const discordModals = require('discord-modals');
+let client = global.client = new RAVGAR({
+    token: system.Tokens.Executive,
+    prefix: system.Bot.Prefixs,
+    owners: system.Bot.Roots,
+    MongoURI: system.Bot.MongoURI,
+    _dirname: "Executive"
+});
+discordModals(client);
+client.fetchCommands(true, true);
+client.fetchEvents()
+client.connect()
